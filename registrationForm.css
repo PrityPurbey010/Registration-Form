@@ -1,0 +1,46 @@
+.form{
+    height: 29rem;
+    width: 19rem;
+    border: 1.5px solid lightgray;
+    border-radius: 14px;
+    margin: 40px auto;
+    box-shadow: 1px 0px 20px 2px rgb(223, 215, 215); 
+    box-sizing: border-box;
+    /* background-color: rgba(180, 204, 112, 0.603); */
+    text-align: center;
+    background:linear-gradient(blue rgb(99, 99, 60))
+}
+.reg_heading{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: rgba(43, 40, 40, 0.918);
+}
+.fill{
+    padding: 12px 44px;
+    border-radius: 16px;
+    border: none;
+    border: 0.5px solid rgba(170, 75, 75, 0.596);
+    background-color: rgba(156, 197, 181, 0.925);
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
+.padding{
+    margin: 20px 0px;
+}
+.submit{
+    padding: 10px 26px;
+    font-size: 18px;
+    color:rgb(34, 49, 49);
+    margin-top: 28px;
+    border-radius: 24px;
+}
+.submit:hover{
+    background-color:rgb(132, 155, 197);
+    color:rgb(0, 0, 0);
+}
+.fill:hover{
+    border-color:rgb(132, 155, 197) ;
+    background-color: rgb(168, 188, 206);
+}
